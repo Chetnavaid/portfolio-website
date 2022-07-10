@@ -7,13 +7,7 @@
   --default-font-family: ballinger-mono, sans-serif;
 }
 
-html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
   background: var(--background-color);
 }
 
@@ -23,43 +17,29 @@ body {
   text-align: center;
 }
 
-.home-title-container h2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.home-title-container .home-title-word-1 {
+.hero .home-title-word-1 {
   font-family: var(--heading-font-family-1);
   font-weight: 400;
   font-style: normal;
-  font-size: 200px;
+  font-size: 150px;
   color: var(--branding-color);
   letter-spacing: 6px;
   text-transform: uppercase;
   line-height: 1;
-  position: relative;
-  left: -0.5em;
 }
 
-.home-title-line {
-  white-space: nowrap;
-}
-
-.home-title-container .home-title-word-2 {
+.hero .home-title-word-2 {
   font-family: var(--heading-font-family-2);
   font-weight: 400;
   font-style: normal;
-  font-size: 210px;
+  font-size: 160px;
   color: var(--branding-color);
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 1;
-  position: relative;
-  left: -0.05em;
-  display: inline-block;
 }
 
-.home-title-container .home-title-and {
+.hero .home-title-and {
   font-family: var(--heading-font-family-2);
   font-weight: 100;
   font-style: normal;
@@ -68,12 +48,10 @@ body {
   letter-spacing: -2px;
   text-transform: uppercase;
   line-height: 1;
-  position: relative;
-  left: 0.2em;
-  display: inline-block;
+  margin-top: 3em;
 }
 
-.home-title-container p {
+.hero .description-1 {
   font-family: var(--default-font-family);
   font-weight: 400;
   font-style: normal;
@@ -82,25 +60,19 @@ body {
   letter-spacing: -0.5px;
   text-transform: uppercase;
   text-align: left;
-  display: inline-block;
-  position: relative;
-  left: -1em;
-  bottom: 4em;
-  overflow-wrap: break-word;
+  margin-top: 3.8em;
+  margin-left: 12em;
 }
 
-.home-title-container .home-title-word-3 {
+.hero .home-title-word-3 {
   font-family: var(--heading-font-family-1);
   font-weight: 400;
   font-style: normal;
-  font-size: 200px;
+  font-size: 150px;
   color: var(--branding-color);
   letter-spacing: 6px;
   text-transform: uppercase;
   line-height: 1;
-  position: relative;
-  left: 0.6em;
-  bottom: -0.5px;
 }
 
 .scroll-page p {
@@ -183,32 +155,22 @@ body {
   .hero {
     padding: 80px 20px;
   }
-  .home-title-container .home-title-word-1 {
+  .hero .home-title-word-1 {
     font-size: 48px;
-    position: static;
   }
-  .home-title-line {
-    white-space: normal;
-  }
-  .home-title-container .home-title-word-2 {
+  .hero .home-title-word-2 {
     font-size: 48px;
-    position: static;
   }
-  .home-title-container .home-title-and {
+  .hero .home-title-and {
     font-size: 12px;
     letter-spacing: 0;
-    position: static;
   }
-  .home-title-container p {
+  .hero .description-1 {
     font-size: 12px;
     letter-spacing: 0;
-    position: relative;
-    top: 6em;
   }
-  .home-title-container .home-title-word-3 {
+  .hero .home-title-word-3 {
     font-size: 48px;
-    position: relative;
-    top: 1.5em;
   }
 
   .about-section h1 {
