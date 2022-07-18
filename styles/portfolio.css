@@ -9,7 +9,7 @@
 
 body {
   background: var(--background-color);
-  padding: 160px 20px;
+  padding: 40px 20px;
 }
 
 .hero {
@@ -88,6 +88,43 @@ body {
 
 .scroll-logo {
   color: var(--secondary-color);
+}
+
+.recent-work {
+  padding: 100px;
+}
+
+.recent-work h1 {
+  font-family: var(--heading-font-family-2);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: var(--secondary-color);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+}
+
+.project-page-row h3 {
+  font-family: var(--heading-font-family-2);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: var(--secondary-color);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+}
+
+.project-page-row p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #161c21;
+  text-align: left;
 }
 
 .about-section {
